@@ -1,14 +1,4 @@
-body {
-    text-align: center;
-    font-family: "Times New Roman", sans-serif;
-    font-weight: 550;
-    background-color: white;
-}
-
-ul {
-    display: inline-block;
-    padding-left: 0;
-}
+/*All pages styling*/
 
 h1 {
     font-family: "Copperplate", "Times New Roman", sans-serif;
@@ -17,9 +7,30 @@ h1 {
     margin: 35px 0 35px 0;
 }
 
+h2, h3 {
+    font-family: "Copperplate", "Times New Roman", sans-serif;
+}
+
+/*index.html styling*/
+
+.index-body {
+    text-align: center;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: 550;
+    background-color: beige;
+}
+
+.index-ul {
+    display: inline-block;
+    padding-left: 0;
+    text-align: left;
+}
+
 .intro {
-    margin: 40px 0 20px 0;
     font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: "Copperplate", "Times New Roman", sans-serif;
 }
 
 a {
